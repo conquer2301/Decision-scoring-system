@@ -345,7 +345,7 @@ function submitForm(){
     questions.forEach(q=>{
         let selInput = q.querySelector('input[type="radio"]:checked');
         let reason = q.querySelector('.reason').value.trim();
-        reason = reason ? '；' + reason : '';
+        reason = reason ? '；选择理由：' + reason : '';
         total += selInput ? parseInt(selInput.value) : 0;
 
         let selText = '未选择';
@@ -401,3 +401,4 @@ function copySummary(){
 
 </body>
 </html>
+
