@@ -14,7 +14,7 @@
     .result { margin-top: 30px; padding: 20px; background: #dff0d8; border-radius: 8px; font-weight: bold; white-space: pre-wrap; position: relative; }
     .score { color: gray; font-style: italic; margin-left: 5px; }
     .copy-btn { position: absolute; top: 10px; left: 10px; padding: 5px 10px; font-size: 12px; cursor: pointer; border: 1px solid #ccc; border-radius: 4px; background: #fff; }
-    .description {color: gray; }
+    .description {color: gray; font-size: 14px;}
 </style>
 </head>
 <body>
@@ -36,7 +36,13 @@
 <div id="AQuestions" class="hidden">
   <div class="question">
       <strong>A1 信息充分度</strong>
-      <p class="description">确保决策建立在可靠信息基础上，而不是凭感觉或一面之词。列出关键事实来源，可能是自己调查、文件、行业数据，或他人提供的证据。</p>
+      <p class="description">核心目标：确保决策建立在可靠信息基础上，而不是凭感觉或一面之词。<br> 
+        思考维度：<br>
+        ● 关键事实：成本、风险、收益、可行性<br>
+        ● 来源多样性：官方文件、第三方报告、同行经验、自我调查<br>
+        ● 验证可靠性：是否独立、可查、权威<br>
+        ● 信息完整度：是否覆盖决策影响的主要方面
+      </p>
       <label><input type="radio" name="A1" value="15"> ≥3 条独立、可信来源确认关键事实 <span class="score">15分</span></label>
       <label><input type="radio" name="A1" value="10"> 2 条来源，其中至少 1 条是可靠/间接验证 <span class="score">10分</span></label>
       <label><input type="radio" name="A1" value="5"> 仅 1 条来源（可能偏主观或不完全可靠） <span class="score">5分</span></label>
@@ -45,7 +51,14 @@
   </div>
   <div class="question">
       <strong>A2 现实检验度</strong>
-      <p class="description">把你的计划与现实情况对照，确认假设是否成立。可列出关键事实或数据，自己观察的、他人提供的或公开信息均可。</p>
+      <p class="description">核心目标：把计划与现实情况对照，确认假设是否成立。<br> 
+        思考维度：<br>
+        ● 资源匹配：金钱、人力、时间、工具是否够<br>
+        ● 环境条件：地点、设备、法规、政策<br>
+        ● 风险可控性：潜在阻碍、不可预见问题<br>
+        ● 目标可实现性：计划结果在现实条件下能达成<br>
+        ● 验证信息来源：观察、他人经验、公开数据
+      </p>
       <label><input type="radio" name="A2" value="12"> 列出 ≥3 条可验证现实信息，计划在这些条件下仍可执行 <span class="score">12分</span></label>
       <label><input type="radio" name="A2" value="8"> 列出 1–2 条信息，计划部分可行 <span class="score">8分</span></label>
       <label><input type="radio" name="A2" value="4"> 信息不完整，大多依赖假设 <span class="score">4分</span></label>
@@ -54,7 +67,13 @@
   </div>
   <div class="question">
       <strong>A3 冷静期与冲动度</strong>
-      <p class="description">强制在情绪或灵感高涨时“刹车”，避免即时承诺，对抗“头脑一热”，给情绪冷却时间；A级决策必须至少搁置 72 小时，在冷却期结束时复查 A1–A2 项，记录首次冲动时间。</p>
+      <p class="description">核心目标：强制在情绪或灵感高涨时“刹车”，避免即时承诺，给情绪冷却时间。<br> 
+        思考维度：<br>
+        ● 时间冷却：至少 72 小时复查 A1/A2<br>
+        ● 情绪状态：是否“头脑一热”或受情绪影响<br>
+        ● 初始冲动记录：记录首次想法、灵感或情绪波动<br>
+        ● 复查习惯：冷却后再验证信息和可行性
+      </p>
       <label><input type="radio" name="A3" value="12"> ≥72 小时冷静期并复查核心假设 <span class="score">12分</span></label>
       <label><input type="radio" name="A3" value="8"> 48 小时冷静期并部分复查 <span class="score">8分</span></label>
       <label><input type="radio" name="A3" value="4"> ＜24 小时或只口头考虑 <span class="score">4分</span></label>
@@ -63,7 +82,13 @@
   </div>
   <div class="question">
       <strong>A4 最坏情形与可承受性</strong>
-      <p class="description">把“最坏后果”写出来并量化（金额/时间/名誉/家庭影响），判断自己是否能承受损失，并列出至少一项退出或缓解方案。</p>
+      <p class="description">核心目标：预估最坏后果并判断承受力，并列出至少一项退出或缓解方案。<br> 
+        思考维度：<br>
+        ● 最坏结果量化：金钱、时间、名誉、关系等<br>
+        ● 承受能力：心理和实际可接受范围<br>
+        ● 退出/缓解方案：可行的风险控制措施<br>
+        ● 概率与后果结合：最坏情况发生概率的合理估计
+      </p>
       <label><input type="radio" name="A4" value="12"> 量化最坏后果并有明确缓解/退出方案 <span class="score">12分</span></label>
       <label><input type="radio" name="A4" value="8"> 能描述最坏后果，但缓解不完整 <span class="score">8分</span></label>
       <label><input type="radio" name="A4" value="4"> 模糊描述最坏情形 <span class="score">4分</span></label>
@@ -72,7 +97,13 @@
   </div>
   <div class="question">
       <strong>A5 信息对称与动机透明度</strong>
-      <p class="description">识别决策中可能存在的利益动机（自己或他人），避免被表面承诺的“美好愿景”蒙蔽，记录事实和动机判断，无论信息来自自己判断还是他人提供。</p>
+      <p class="description">核心目标：识别利益动机，避免被表面承诺蒙蔽，记录事实和动机判断，无论信息来自自己判断还是他人提供。<br> 
+        思考维度：<br>
+        ● 自己动机：为什么做？利益冲突吗？<br>
+        ● 他人动机：谁有利益驱动？可能隐藏信息吗？<br>
+        ● 证据验证：动机是否有事实依据<br>
+        ● 信息不对称识别：识别可能的偏差或误导
+      </p>
       <label><input type="radio" name="A5" value="10"> 清晰列出所有关键动机/利益点，有证据验证 <span class="score">10分</span></label>
       <label><input type="radio" name="A5" value="6"> 部分动机推测或验证 <span class="score">6分</span></label>
       <label><input type="radio" name="A5" value="2"> 动机模糊不明 <span class="score">2分</span></label>
@@ -81,7 +112,13 @@
   </div>
   <div class="question">
       <strong>A6 第三方/替代验证</strong>
-      <p class="description">通过外部证据或专业意见校验决策，确保不是单凭自我感觉或他人片面说法。可以使用匿名渠道、公开资料、付费顾问或法律审核。</p>
+      <p class="description">核心目标：通过外部证据或专业意见校验决策可靠性。<br> 
+        思考维度：<br>
+        ● 独立证据：专家、权威资料、行业报告<br>
+        ● 间接验证：匿名渠道、公开信息<br>
+        ● 法律/专业审核：合同、法规或顾问意见<br>
+        ● 避免自我偏差：确认不是凭自我感觉或他人片面信息
+      </p>
       <label><input type="radio" name="A6" value="10"> 独立找到第三方客观证据 <span class="score">10分</span></label>
       <label><input type="radio" name="A6" value="6"> 匿名/公开来源间接验证 <span class="score">6分</span></label>
       <label><input type="radio" name="A6" value="2"> 付费顾问/律师审阅 <span class="score">2分</span></label>
@@ -90,7 +127,13 @@
   </div>
   <div class="question">
       <strong>A7 情绪与外界施压度</strong>
-      <p class="description">评估自己是否被情绪或外界催促影响决策。记录所有催促或心理压力源，任何出现催促按规则扣分并自动启动冷却。</p>
+      <p class="description">核心目标：评估自己是否被情绪或外界催促影响决策。<br> 
+        思考维度：<br>
+        ● 外部压力：催促、限时条件、社交压力<br>
+        ● 内部压力：恐惧、焦虑、渴望被认可<br>
+        ● 情绪监控：记录压力状态、判断对决策的影响<br>
+        ● 冷却机制：必要时启动冷却或延迟决策
+      </p>
       <label><input type="radio" name="A7" value="0"> 情绪平稳，无催促影响 <span class="score">0分</span></label>
       <label><input type="radio" name="A7" value="-4"> 轻微催促或内心担心被拒 <span class="score">-4分</span></label>
       <label><input type="radio" name="A7" value="-7"> 情绪受操控（热情→冷落交替） <span class="score">-7分</span></label>
@@ -99,7 +142,13 @@
   </div>
   <div class="question">
       <strong>A8 长期一致性</strong>
-      <p class="description">判断这次决策是否与 3 年长期目标一致，防止短期诱惑毁掉长期计划，避免被短期“亮点”吸引。列出长期目标并逐条对照决策影响。</p>
+      <p class="description">核心目标：确保短期决策与长期目标一致，防止短期诱惑毁掉长期计划，避免被短期“亮点”吸引。<br> 
+        思考维度：<br>
+        ● 长期目标明确：3 年或更长期规划<br>
+        ● 短期与长期对照：当前决策是否支持长期目标<br>
+        ● 收益权衡：短期利益与长期风险<br>
+        ● 调整可能性：决策可否调整以更贴近长期目标
+      </p>
       <label><input type="radio" name="A8" value="11"> 与长期目标高度一致，可量化收益 <span class="score">11分</span></label>
       <label><input type="radio" name="A8" value="7"> 部分一致，可调整实现 <span class="score">7分</span></label>
       <label><input type="radio" name="A8" value="3"> 短期收益明显，长期风险高 <span class="score">3分</span></label>
@@ -108,7 +157,13 @@
   </div>
   <div class="question">
       <strong>A9 决策透明记录度</strong>
-      <p class="description">确保整个决策过程可以复盘。记录你的分析、证据来源、冷却时间、验证过程，无论是否有他人参与。</p>
+      <p class="description">核心目标：确保整个决策过程可以复盘。<br> 
+        思考维度：<br>
+        ● 记录完整性：笔记、邮件、日志等，全程记录<br>
+        ● 决策过程透明：假设、事实来源、验证方法、冷却时间<br>
+        ● 信息追溯：后续可验证信息来源和验证过程<br>
+        ● 复盘价值：为未来类似决策提供参考
+      </p>
       <label><input type="radio" name="A9" value="10"> 决策全程记录（笔记、邮件、日志） <span class="score">10分</span></label>
       <label><input type="radio" name="A9" value="6"> 部分记录，信息缺失 <span class="score">6分</span></label>
       <label><input type="radio" name="A9" value="2"> 只有零散记录 <span class="score">2分</span></label>
@@ -117,7 +172,13 @@
   </div>
   <div class="question">
       <strong>A10 依赖他人风险度 </strong>
-      <p class="description">评估执行决策时对外部资源或他人的依赖，并制定备选方案或自主管控措施。</p>
+      <p class="description">核心目标：评估执行决策时对外部资源或他人的依赖程度。<br> 
+        思考维度：<br>
+        ● 独立可控性：计划能否自主完成<br>
+        ● 关键依赖识别：哪些环节依赖他人或外部条件<br>
+        ● 备选方案：依赖不可行时的备选方案或自主管控措施<br>
+        ● 风险量化：依赖失败可能造成的后果
+      </p>
       <label><input type="radio" name="A10" value="10"> 完全可独立执行或验证 <span class="score">10分</span></label>
       <label><input type="radio" name="A10" value="6"> 小部分依赖，可控制 <span class="score">6分</span></label>
       <label><input type="radio" name="A10" value="2"> 关键部分依赖他人，风险中等 <span class="score">2分</span></label>
@@ -126,7 +187,13 @@
   </div>
   <div class="question">
       <strong>A11 时间压力敏感度</strong>
-      <p class="description">量化时间限制对你判断的负面影响，避免“限时优惠”式冲动；时间压力是头脑一热的重要诱因，遇到“限时”条件先冷却并验证是否是真实限制。</p>
+      <p class="description">核心目标：量化时间限制对判断的负面影响，避免“限时优惠”式冲动导致的头脑一热。<br> 
+        思考维度：<br>
+        ● 真实时间限制：是否为真实限制<br>
+        ● 心理压力：限时条件是否影响判断<br>
+        ● 控制策略：冷却、延迟决策或分阶段执行<br>
+        ● 应急方案：时间紧迫时的备用计划
+      </p>
       <label><input type="radio" name="A11" value="10"> 无时间压力，冷静规划 <span class="score">10分</span></label>
       <label><input type="radio" name="A11" value="6"> 轻微压力，可控制 <span class="score">6分</span></label>
       <label><input type="radio" name="A11" value="2"> 明显压力，影响判断 <span class="score">2分</span></label>
@@ -135,7 +202,13 @@
   </div>
   <div class="question">
       <strong>A12 决策多方案对比度</strong>
-      <p class="description">强制生成并比较多条可行方案，量化优劣（成本、时间、失败概率、收益）。避免陷入单一路径思维。</p>
+      <p class="description">核心目标：强制生成并比较多条可行方案，量化优劣，避免陷入单一路径思维。<br> 
+        思考维度：<br>
+        ● 方案生成：至少 2~3 个可行方案<br>
+        ● 方案对比维度：成本、时间、失败概率、收益<br>
+        ● 优劣量化：每条方案的风险与收益明确<br>
+        ● 多方案验证：确保选择最优或次优方案，而不是凭直觉
+      </p>
       <label><input type="radio" name="A12" value="10"> 列出 ≥3 个可选方案，并完整对比 <span class="score">10分</span></label>
       <label><input type="radio" name="A12" value="6"> 列出 2 个方案，对比基本 <span class="score">6分</span></label>
       <label><input type="radio" name="A12" value="2"> 仅考虑当前方案 <span class="score">2分</span></label>
@@ -147,7 +220,13 @@
 <div id="BQuestions" class="hidden">
   <div class="question">
       <strong>B1 信息充分度</strong>
-      <p class="description">确保中等风险决策不是凭感觉或单一口头信息做出。至少收集两条独立来源，可能是文件、行业数据或第三方信息，并写入表格。</p>
+      <p class="description">核心目标：确保决策不是凭感觉或单一口头信息做出，至少收集两条独立来源并记录。<br> 
+        思考维度：<br>
+        ● 收集至少 2 个独立来源（文件、第三方数据、行业资料）<br>
+        ● 核对信息可靠性：是否可验证、独立<br>
+        ● 涉及关键事实：成本、收益、风险<br>
+        ● 避免盲信他人承诺
+      </p>
       <label><input type="radio" name="B1" value="15"> ≥2 条独立来源或文档验证 <span class="score">15分</span></label>
       <label><input type="radio" name="B1" value="10"> 1 条独立来源 + 对方信息 <span class="score">10分</span></label>
       <label><input type="radio" name="B1" value="5"> 仅依赖对方口头信息 <span class="score">5分</span></label>
@@ -156,7 +235,13 @@
   </div>
   <div class="question">
       <strong>B2 冲动/情绪因素</strong>
-      <p class="description">评估自己是否冲动或被情绪影响，记录触发点，避免“看到好处就立即报名/购买”的冲动。若出现冲动，可延迟 24 小时再做决定。</p>
+      <p class="description">核心目标：避免冲动决策，被情绪或外部诱惑左右，不要有看到好处就立即报名/购买的冲动。<br> 
+        思考维度：<br>
+        ● 识别情绪触发点（兴奋、好奇、压力）<br>
+        ● 强制延迟决策（至少 24 小时）<br>
+        ● 记录冲动来源（广告、他人推荐、限时促销）<br>
+        ● 自我调节情绪，确保理性判断
+      </p>
       <label><input type="radio" name="B2" value="12"> 情绪平稳，无冲动 <span class="score">12分</span></label>
       <label><input type="radio" name="B2" value="8"> 略有兴奋，但可控 <span class="score">8分</span></label>
       <label><input type="radio" name="B2" value="4"> 明显冲动或受催促 <span class="score">4分</span></label>
@@ -165,7 +250,13 @@
   </div>
   <div class="question">
       <strong>B3 备用方案与可逆性</strong>
-      <p class="description">确保决策可撤回或试错，降低后果成本。例如退款、试用、短期合同等。</p>
+      <p class="description">核心目标：降低决策风险，确保可撤回或试错。<br> 
+        思考维度：<br>
+        ● 列出 ≥2 个可逆方案（退款、试用、短期合同）<br>
+        ● 识别不可逆决策的成本与风险<br>
+        ● 制定备选策略，降低损失<br>
+        ● 优先选择低成本、可尝试路径
+      </p>
       <label><input type="radio" name="B3" value="12"> ≥2 个可逆方案 <span class="score">12分</span></label>
       <label><input type="radio" name="B3" value="8"> 1 个可逆方案 <span class="score">8分</span></label>
       <label><input type="radio" name="B3" value="4"> 不可逆但风险有限 <span class="score">4分</span></label>
@@ -174,7 +265,13 @@
   </div>
   <div class="question">
       <strong>B4 成本/收益基本评估</strong>
-      <p class="description">把决策的收益和成本量化，包括金钱、时间、机会成本，做简单ROI估算，拒绝空泛承诺，避免轻易相信“未来价值”而忽视当前代价。</p>
+      <p class="description">核心目标：量化决策成本与收益，避免空泛承诺。<br> 
+        思考维度：<br>
+        ● 列出明确成本（金钱、时间、机会成本）<br>
+        ● 估算预期收益（可量化的实际价值）<br>
+        ● 做简单 ROI 评估<br>
+        ● 避免相信“未来价值”忽略当前代价
+      </p>
       <label><input type="radio" name="B4" value="12"> 成本/收益量化清楚，收益率满意 <span class="score">12分</span></label>
       <label><input type="radio" name="B4" value="8"> 收益估算，但不精确 <span class="score">8分</span></label>
       <label><input type="radio" name="B4" value="4"> 收益模糊 <span class="score">4分</span></label>
@@ -183,7 +280,13 @@
   </div>
   <div class="question">
       <strong>B5 隐私/暴露顾虑</strong>
-      <p class="description">在不暴露个人隐私的前提下，找到验证方法。优先使用匿名渠道、官方或第三方资料。</p>
+      <p class="description">核心目标：保护个人信息，同时验证决策可行性。<br> 
+        思考维度：<br>
+        ● 尽量使用匿名、官方或第三方渠道<br>
+        ● 避免暴露敏感信息<br>
+        ● 判断验证信息需要的隐私成本<br>
+        ● 平衡验证需求与隐私安全
+      </p>
       <label><input type="radio" name="B5" value="10"> 无需透露隐私即可验证 <span class="score">10分</span></label>
       <label><input type="radio" name="B5" value="6"> 需少量信息 <span class="score">6分</span></label>
       <label><input type="radio" name="B5" value="2"> 需较多信息/谨慎处理 <span class="score">2分</span></label>
@@ -192,7 +295,13 @@
   </div>
   <div class="question">
       <strong>B6 冷静期与复核度</strong>
-      <p class="description">给自己设立强制复核窗口，至少延迟 24 小时，再核验前几项信息，避免瞬时决策扩散风险。</p>
+      <p class="description">核心目标：防止瞬时冲动扩散风险，通过延迟复核降低错误概率。<br> 
+        思考维度：<br>
+        ● 设定复核窗口（≥24 小时最佳）<br>
+        ● 再次检查核验前几项内容<br>
+        ● 记录延迟决策时间，确保理性判断<br>
+        ● 确认冷静期是否执行
+      </p>
       <label><input type="radio" name="B6" value="10"> 等待 ≥24 小时，复核全部信息 <span class="score">10分</span></label>
       <label><input type="radio" name="B6" value="7"> 延迟 12–24 小时，复核部分信息 <span class="score">7分</span></label>
       <label><input type="radio" name="B6" value="3"> 延迟 ≤12 小时或仅口头考虑 <span class="score">3分</span></label>
@@ -201,7 +310,13 @@
   </div>
   <div class="question">
       <strong>B7 时间压力敏感度</strong>
-      <p class="description">识别外界催促或限时促销对判断的影响，验证是否真实，必要时延迟决策，验证真实性。</p>
+      <p class="description">核心目标：识别外界催促或限时促销对判断的影响。<br> 
+        思考维度：<br>
+        ● 分辨真实 vs 虚假限时压力<br>
+        ● 判断外部催促是否影响决策<br>
+        ● 必要时延迟决策，验证压力真实性<br>
+        ● 防止“限时优惠”诱导快速行动
+      </p>
       <label><input type="radio" name="B7" value="10"> 无压力，冷静规划 <span class="score">10分</span></label>
       <label><input type="radio" name="B7" value="6"> 轻微压力，可控 <span class="score">6分</span></label>
       <label><input type="radio" name="B7" value="2"> 明显压力，影响判断 <span class="score">2分</span></label>
@@ -210,7 +325,13 @@
   </div>
   <div class="question">
       <strong>B8 长期一致性</strong>
-      <p class="description">判断此决策是否有利于近一年目标，避免短期收益损害近中期目标，对照 1 年计划评估是否推进。</p>
+      <p class="description">核心目标：确保短期决策与近一年目标一致，防止短期诱惑损害中期计划。<br> 
+        思考维度：<br>
+        ● 列出近一年主要目标<br>
+        ● 对照决策是否有利于目标实现<br>
+        ● 判断是否短期利益冲击长期规划<br>
+        ● 可调整策略以兼顾目标
+      </p>
       <label><input type="radio" name="B8" value="10"> 与未来 1 年目标高度一致 <span class="score">10分</span></label>
       <label><input type="radio" name="B8" value="6"> 部分一致 <span class="score">6分</span></label>
       <label><input type="radio" name="B8" value="2"> 短期收益明显，长期风险高 <span class="score">2分</span></label>
@@ -219,7 +340,13 @@
   </div>
   <div class="question">
       <strong>B9 决策多方案对比度</strong>
-      <p class="description">至少列出 2 个方案，并对比优缺点，避免单点思维或快速跟随。</p>
+      <p class="description">核心目标：确保短期决策与近一年目标一致，防止短期诱惑损害中期计划。<br> 
+        思考维度：<br>
+        ● 至少列出 2 个可行方案<br>
+        ● 对比方案优缺点：成本、时间、收益、风险<br>
+        ● 避免仅凭直觉选择单一方案<br>
+        ● 量化选择理由，方便复盘
+      </p>
       <label><input type="radio" name="B9" value="10"> ≥2 个可选方案，优劣对比清楚 <span class="score">10分</span></label>
       <label><input type="radio" name="B9" value="6"> 2 个方案 <span class="score">6分</span></label>
       <label><input type="radio" name="B9" value="2"> 仅考虑当前方案 <span class="score">2分</span></label>
@@ -231,7 +358,13 @@
 <div id="CQuestions" class="hidden">
   <div class="question">
       <strong>C1 可逆性与影响度</strong>
-      <p class="description">判断决策是否可以快速回滚，影响是否微小。即使是小决策，也要避免因冲动带来累积成本或麻烦。若不可逆或有麻烦，至少等 5–15 分钟再执行。</p>
+      <p class="description">核心目标：即使是小决策，也要避免因冲动带来累积成本或麻烦。<br> 
+        思考维度：<br>
+        ● 决策是否可以快速回滚或撤销<br>
+        ● 潜在影响大小（时间、精力、金钱、关系等）<br>
+        ● 冲动执行风险：不可逆或麻烦较大时，至少延迟 5–15 分钟<br>
+        ● 优先选择低成本、可回滚方案
+      </p>
       <label><input type="radio" name="C1" value="10"> 完全可逆、影响微小 <span class="score">10分</span></label>
       <label><input type="radio" name="C1" value="6"> 小成本可回滚 <span class="score">6分</span></label>
       <label><input type="radio" name="C1" value="2"> 可能带来小麻烦 <span class="score">2分</span></label>
@@ -240,7 +373,13 @@
   </div>
   <div class="question">
       <strong>C2 当前情绪冲动度</strong>
-      <p class="description">短时间内识别自己是否因情绪冲动做决定（例如看到促销、好点子想立即行动）。情绪偏高时，先冷却并写下 1 条反对理由。</p>
+      <p class="description">核心目标：识别自己短时间内是否因情绪冲动做决定。<br> 
+        思考维度：<br>
+        ● 情绪状态：兴奋、焦虑、好奇或被促销刺激<br>
+        ● 冷却策略：短暂停顿、记录反对理由<br>
+        ● 确保理性判断，避免自动驾驶式操作<br>
+        ● 自我监控冲动触发点，作为经验积累
+      </p>
       <label><input type="radio" name="C2" value="10"> 情绪平稳、理性 <span class="score">10分</span></label>
       <label><input type="radio" name="C2" value="6"> 略有冲动 <span class="score">6分</span></label>
       <label><input type="radio" name="C2" value="2"> 明显冲动 <span class="score">2分</span></label>
@@ -249,7 +388,13 @@
   </div>
   <div class="question">
       <strong>C3 信息核实度</strong>
-      <p class="description">防止因信息错误导致小决策失误，避免只凭第一印象快速行动而忽视事实，核对时间/价格/联系人等关键信息后再做。</p>
+      <p class="description">核心目标：防止信息错误导致小决策失误。<br> 
+        思考维度：<br>
+        ● 核实关键信息：时间、价格、联系人、数量等<br>
+        ● 避免仅凭第一印象或口头承诺操作<br>
+        ● 核对后再行动，降低错误率<br>
+        ● 对于小决策，核实可以快速完成，成本低
+      </p>
       <label><input type="radio" name="C3" value="5"> 核实所有关键数据 <span class="score">5分</span></label>
       <label><input type="radio" name="C3" value="3"> 部分核实 <span class="score">3分</span></label>
       <label><input type="radio" name="C3" value="0"> 凭感觉或对方口头信息 <span class="score">0分</span></label>
@@ -257,7 +402,13 @@
   </div>
   <div class="question">
       <strong>C4 时间压力敏感度</strong>
-      <p class="description">判断自己是否在外界催促下快速决定。如果压力明显，先延迟并用一句话推迟回应。</p>
+      <p class="description">核心目标：识别外界催促对判断的影响。<br> 
+        思考维度：<br>
+        ● 判断外界施压是否影响自己决策速度<br>
+        ● 如果压力明显，使用延迟策略（例如一句话推迟回应）<br>
+        ● 避免被“限时促销”或现场催促冲动决定<br>
+        ● 快速评估压力程度（无压力、轻微、明显、强制）
+      </p>
       <label><input type="radio" name="C4" value="3"> 无时间压力 <span class="score">3分</span></label>
       <label><input type="radio" name="C4" value="2"> 轻微压力 <span class="score">2分</span></label>
       <label><input type="radio" name="C4" value="1"> 明显压力 <span class="score">1分</span></label>
@@ -266,7 +417,13 @@
   </div>
   <div class="question">
       <strong>C5 决策多方案对比度</strong>
-      <p class="description">即使是小决策，也要考虑至少 1 个替代方案，例如“再等等 / 换一家 / 不做”，减少自动驾驶式选择。</p>
+      <p class="description">核心目标：即使是小决策，也要考虑至少一个替代方案，避免自动驾驶式选择。<br> 
+        思考维度：<br>
+        ● 至少列出 1–2 个可行替代方案（再等等、换选项、不做）<br>
+        ● 对比优缺点：成本、便利性、风险<br>
+        ● 防止凭惯性或习惯性操作<br>
+        ● 对小决策而言，方案对比可以非常简化，但必须考虑
+      </p>
       <label><input type="radio" name="C5" value="2"> 有 1–2 个替代方案 <span class="score">2分</span></label>
       <label><input type="radio" name="C5" value="1"> 仅考虑当前方案 <span class="score">1分</span></label>
       <label><input type="radio" name="C5" value="0"> 没有任何对比方案 <span class="score">0分</span></label>
@@ -392,25 +549,31 @@ function submitForm(){
 // 复制功能
 function copySummary(){
     const text = document.getElementById('summaryText').textContent;
-    navigator.clipboard.writeText(text).then(()=>{
+    navigator.clipboard.writeText(text).then(() => {
         // 创建提示框
         let tip = document.createElement('div');
         tip.textContent = '总结已复制到剪贴板';
         tip.style.position = 'fixed';
-        tip.style.top = '10px';          // 页面顶端
-        tip.style.left = '50%';           // 水平居中
+        tip.style.top = '20px';          // 页面顶端稍微向下移动
+        tip.style.left = '50%';          // 水平居中
         tip.style.transform = 'translateX(-50%)';
-        tip.style.padding = '8px 16px';
+
+        // 定义放大倍数（调整提示框的大小）
+        const scale = 2;
+
+        // 动态计算样式
+        tip.style.padding = `${8 * scale}px ${16 * scale}px`;
+        tip.style.borderRadius = `${4 * scale}px`;
+        tip.style.fontSize = `${12 * scale}px`;
+
         tip.style.background = '#4caf50'; // 绿色背景
         tip.style.color = '#fff';
-        tip.style.borderRadius = '4px';
-        tip.style.fontSize = '12px';
         tip.style.zIndex = '1000';
         tip.style.textAlign = 'center';
         document.body.appendChild(tip);
         // 2秒后自动删除
         setTimeout(() => tip.remove(), 2000);
-    }).catch(err=>{
+    }).catch(err => {
         alert('复制失败: ' + err);
     });
 }
